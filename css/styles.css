@@ -304,11 +304,10 @@ button {
     /* position: relative; */
     padding-top: 125px;
     padding-bottom: 146px;
-    background-image: url(../images/dekor-1440.png),
-      url(../images/hero-1440.png),
+    background-image: url(../images/dekor-1440.png), url(../images/hero-768.png),
       linear-gradient(180deg, rgba(6, 7, 27, 1) 80%, rgba(255, 255, 255, 1) 80%);
-    background-position: 339px 227px, 820px 277px, 0 0;
-    background-size: 541px 418px, 324px 374px, 1920px 844px;
+    background-position: 339px 227px, 720px 110px, 0 0;
+    background-size: 541px 418px, 524px 654px, 1920px 844px;
     height: 744px;
   }
 
