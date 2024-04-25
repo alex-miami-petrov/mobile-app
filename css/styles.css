@@ -154,7 +154,36 @@ button {
   margin: 0 auto;
 }
 
-/*  */
+/* FEATURES */
+
+.features {
+  padding: 40px 0;
+}
+
+.feat-title {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.feat-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+}
+.feat-img {
+}
+.feat-list {
+}
+.feat-item {
+}
+.feat-icon {
+}
+.feat-features {
+}
+.feat-text {
+}
 
 /*  */
 
@@ -207,11 +236,12 @@ button {
     /* position: relative; */
     padding-top: 40px;
     padding-bottom: 143px;
-    background-color: #06071b;
-    background-image: url(../images/hero-png-2.png);
-    background-repeat: no-repeat;
-    background-position: 2px 5px;
-    background-size: 315px 610px;
+    /* background-color: #06071b; */
+    background-image: url(../images/dekor-768.png), url(../images/hero-768.png),
+      linear-gradient(180deg, rgba(6, 7, 27, 1) 80%, rgba(255, 255, 255, 1) 80%);
+    background-position: 198px 218px, 375px 170px, 0 0;
+    background-size: 362px 352px, 400px 490px, 1920px 740px;
+    height: 640px;
   }
 
   .hero-title {
@@ -240,6 +270,19 @@ button {
   .hero-btn {
     margin: 0;
   }
+
+  .features {
+    padding-top: 40px;
+    padding-bottom: 47px;
+  }
+
+  .feat-title {
+    font-size: 24px;
+  }
+  .feat-subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+  }
 }
 
 /* DESKTOP */
@@ -261,5 +304,16 @@ button {
     /* position: relative; */
     padding-top: 125px;
     padding-bottom: 146px;
+    background-image: url(../images/dekor-1440.png),
+      url(../images/hero-1440.png),
+      linear-gradient(180deg, rgba(6, 7, 27, 1) 80%, rgba(255, 255, 255, 1) 80%);
+    background-position: 339px 227px, 820px 277px, 0 0;
+    background-size: 541px 418px, 324px 374px, 1920px 844px;
+    height: 744px;
+  }
+
+  .features {
+    padding-top: 40px;
+    padding-bottom: 0;
   }
 }
