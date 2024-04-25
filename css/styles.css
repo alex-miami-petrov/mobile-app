@@ -70,8 +70,12 @@ button {
 .logo-link {
 }
 .menu-open-btn {
+  border: none;
+  background-color: transparent;
 }
 .menu-open-icon {
+  stroke: #fff;
+  stroke-width: 2px;
 }
 
 /* HERO */
