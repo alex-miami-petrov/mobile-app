@@ -1,8 +1,8 @@
 body {
-  font-family: ;
+  font-family: "Inter", sans-serif;
   font-style: normal;
-  background-color: ;
-  color: ;
+  background-color: #fff;
+  color: #000;
 }
 
 h1,
@@ -17,6 +17,7 @@ p {
 }
 
 ul {
+  list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
@@ -29,9 +30,9 @@ img {
 }
 
 .container {
-  width: ;
-  padding-left: ;
-  padding-right: ;
+  max-width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin: 0 auto;
 }
 
@@ -40,16 +41,9 @@ a {
   color: inherit;
 }
 
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
 .title {
-  font-weight: ;
-  font-size: ;
-  line-height: ;
-  color: ;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 button {
@@ -57,6 +51,25 @@ button {
 }
 
 /* HEADER */
+
+.header {
+  padding-top: 34px;
+  padding-bottom: 14px;
+  background-image: linear-gradient(
+    (99deg, rgba(0, 197, 235, 0.3) 0%, rgba(181, 68, 254, 0.3) 100%),
+    360deg,
+    #06071b
+  );
+}
+
+.nav {
+}
+.logo-link {
+}
+.menu-open-btn {
+}
+.menu-open-icon {
+}
 
 /* HERO */
 
@@ -70,3 +83,30 @@ button {
 /*  */
 
 /*  */
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+  }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+  }
+
+  .header {
+    padding-top: 45px;
+    padding-bottom: 19px;
+  }
+}

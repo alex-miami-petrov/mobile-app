@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>food_delivery_service</title>
-
+    <title>mobile_app</title>
+    <link rel="icon" type="image/x-icon" href="/images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <!-- GOOGLE FONTS -->
 
     <link
@@ -19,27 +25,251 @@
   <body>
     <header class="header">
       <div class="container">
-        <nav class="nav"></nav>
+        <nav class="nav">
+          <a href="" class="logo-link"
+            ><img src="./images/logo.png" alt="logo" width="139" height="34
+            class="logo-img" /></a
+          >
+          <button type="button" class="menu-open-btn">
+            <svg class="menu-open-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
+        </nav>
       </div>
     </header>
+    <div class="mob-menu">
+      <div class="mob-nav">
+        <button type="button" class="menu-close-btn">
+          <svg class="menu-close-icon" width="20" height="20">
+            <use href="./images/icons.svg#icon-xxx"></use>
+          </svg>
+        </button>
+
+        <nav class="m-m-nav">
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">home</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">features</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">team</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">testimonial</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title"></h1>
+          <h1 class="hero-title">Introducing Mobileapp</h1>
+          <h2 class="hero-subtitle">Download our mobile app today!</h2>
+          <ul class="hero-list">
+            <li class="hero-item">
+              <svg class="hero-icon">
+                <use></use>
+              </svg>
+              <p class="hero-text">Real-time updates and notifications for timely information</p>
+            </li>
+            <li class="hero-item">
+              <svg class="hero-icon">
+                <use></use>
+              </svg>
+              <p class="hero-text">Robust analytics and reporting for data-driven insights</p>
+            </li>
+            <li class="hero-item">
+              <svg class="hero-icon">
+                <use></use>
+              </svg>
+              <p class="hero-text">Offline capabilities for uninterrupted use</p>
+            </li>
+          </ul>
+          <button type="button" class="hero-btn">Download</button>
         </div>
       </section>
-      <section class="">
-        <div class="container"></div>
+      <section class="features">
+        <div class="container">
+          <h2 class="feat-title">key features</h2>
+          <h3 class="feat-subtitle">Get the best mobile experience with our Mobileapp. With a user-friendly interface, personalized recommendations, secure transactions, and real-time updates, our app offers everything you need to stay connected and productive</h3>
+          <img src="" alt="" class="feat-img" />
+          <ul class="feat-list">
+            <li class="feat-item">
+              <svg class="feat-icon">
+                <use></use>
+              </svg>
+              <h4 class="feat-features">User-Friendly Interface:</h4>
+              <p class="feat-text">Intuitive and easy-to-navigate interface designed to provide a seamless mobile experience for users.</p>
+            </li>
+            <li class="feat-item">
+              <svg class="feat-icon">
+                <use></use>
+              </svg>
+              <h4 class="feat-features">Personalized Recommendations:</h4>
+              <p class="feat-text">Donec posuere augue venenatis, aliquet ligula ut, tempus quam. Vivamus 
+diam a iaculis malesuada</p>
+            </li>
+            <li class="feat-item">
+              <svg class="feat-icon">
+                <use></use>
+              </svg>
+              <h4 class="feat-features">Real-Time Updates:</h4>
+              <p class="feat-text">Users receive real-time updates and notifications to stay informed on important news and events, and to stay up-to-date with changes to the app.</p>
+            </li>
+            <li class="feat-item">
+              <svg class="feat-icon">
+                <use></use>
+              </svg>
+              <h4 class="feat-features">Integration with Other Apps:</h4>
+              <p class="feat-text">The app integrates with other popular apps, making it easy for users to connect with their social media accounts, or to easily make in-app purchases using their preferred payment method.</p>
+            </li>
+            <li class="feat-item">
+              <svg class="feat-icon">
+                <use></use>
+              </svg>
+              <h4 class="feat-features">Multi-Language Support:</h4>
+              <p class="feat-text">The app is designed to be accessible to users all around the world, with support for multiple languages, making it easier for people to use the app in their native language.</p>
+            </li>
+            <li class="feat-item">
+              <svg class="feat-icon">
+                <use></use>
+              </svg>
+              <h4 class="feat-features">Offline Capabilities:</h4>
+              <p class="feat-text">The app offers offline capabilities, allowing users to access certain features and content even when they are not connected to the internet.</p>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="">
-        <div class="container"></div>
+      <section class="video">
+        <div class="container">
+          <h2 class="video-title">watch the video</h2>
+          <h3 class="video-subtitle">Watch the video below to see our mobile app in action. With a user-friendly interface, personalized recommendations, secure transactions, and real-time updates, our app is available for download on both Apple and Android devices and is designed to make your life easier.</h3>
+          <button type="button" class="apple-btn"></button>
+          <button type="button" class="android-btn"></button>
+          <img src="" alt="" class="video-img" />
+        </div>
       </section>
-      <section class="">
-        <div class="container"></div>
+      <section class="team">
+        <div class="container">
+          <h2 class="team-title">our team</h2>
+          <h3 class="team-subtitle">Our team is made up of talented and passionate individuals who are committed to providing the best experience for our users. Each member brings a unique set of skills and expertise to the table, allowing us to work collaboratively and effectively to achieve our goals.</h3>
+          <ul class="team-list">
+            <li class="team-item">
+              <img src="" alt="" class="team-img" />
+              <h4 class="team-name">David Patel</h4>
+              <p class="job">Managing Direcor</p>
+            </li>
+            <li class="team-item">
+              <img src="" alt="" class="team-img" />
+              <h4 class="team-name">Rachel Kim</h4>
+              <p class="job">Lead Designer</p>
+            </li>
+            <li class="team-item">
+              <img src="" alt="" class="team-img" />
+              <h4 class="team-name">Samantha Chen</h4>
+              <p class="job">Lead Developer</p>
+            </li>
+            <li class="team-item">
+              <img src="" alt="" class="team-img" />
+              <h4 class="team-name">Andrew Nguyen</h4>
+              <p class="job">Sr. UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="testimonials">
+        <div class="container">
+          <h2 class="test-title">what our customer's say</h2>
+          <ul class="test-list">
+            <li class="test-item">
+              <img src="" alt="" class="test-img" />
+              <h3 class="test-name">Jon Doe</h3>
+              <h4 class="test-job">Company Inc.</h4>
+              <p class="test-text">I've been using this app for a few weeks now and I have to say, I'm really impressed. It's so easy to use and the personalized recommendations are spot-on. Plus, the transactions are secure and the updates are always timely. I would definitely recommend this app to anyone looking for a better mobile experience.</p>
+            </li>
+          </ul>
+          <svg class="test-icon">
+            <use></use>
+          </svg>
+          <svg class="test-icon">
+            <use></use>
+          </svg>
+          <svg class="test-icon">
+            <use></use>
+          </svg>
+          <svg class="test-icon">
+            <use></use>
+          </svg>
+          <svg class="test-icon">
+            <use></use>
+          </svg>
+          <svg class="test-icon">
+            <use></use>
+          </svg>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <h2 class="contact-title">contact us</h2>
+          <form action="" class="contact-form">
+            <div class="contact-field">
+              <label for="" class="contact-label"></label
+              ><input type="text" placeholder="Name" class="contact-input" />
+            </div>
+            <div class="contact-field">
+              <label for="" class="contact-label"></label
+              ><input type="text" placeholder="Email" class="contact-input" />
+            </div>
+            <div class="cont-textarea-field">
+              <label for="" class="cont-textarea-label"></label
+              ><textarea
+                name=""
+                id=""
+                placeholder="Message"
+                class="cont-textarea"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="contact-btn">submit</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container"></div>
+      <div class="container">
+        <p class="ftr-title">Get in touch with us</p>
+        <p class="ftr-subtitle">Have a question or comment about our app? Get in touch with us using the contact form below and our team will respond shortly.</p>
+        <svg class="ftr-icon">
+          <use></use>
+        </svg>
+        <svg class="ftr-icon">
+          <use></use>
+        </svg>
+        <svg class="ftr-icon">
+          <use></use>
+        </svg>
+        <adress class="ftr-adress">
+           <ul class="contacts-list">
+            <li>
+              <a class="ftr-adress-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="ftr-adress-item" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </adress>
+        <a href="" class="copyright"></a>
+      </div>
     </footer>
   </body>
 </html>
