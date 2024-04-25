@@ -53,13 +53,17 @@ button {
 /* HEADER */
 
 .header {
-  padding-top: 34px;
+  position: absolute;
+  top: 20px;
+  left: 0.4%;
+  padding-top: 14px;
   padding-bottom: 14px;
-  background: linear-gradient(
+  background-image: linear-gradient(
     99deg,
     rgba(0, 197, 235, 0.3) 0%,
     rgba(181, 68, 254, 0.3) 100%
   );
+  width: 100%;
 }
 
 .nav {
@@ -81,8 +85,48 @@ button {
 /* HERO */
 
 .hero {
-  padding-top: ;
-  padding-bottom: ;
+  /* position: relative; */
+  padding-top: 80px;
+  padding-bottom: 127px;
+
+  background-color: #06071b;
+  background-image: url(../images/hero-png-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-container {
+  padding-right: 35px;
+}
+
+
+
+
+.hero-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 12px;
+}
+.hero-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+.hero-list {
+}
+.hero-item {
+  
+.hero-icon {
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+}
+.hero-btn {
+  position: absolute;
 }
 
 /*  */
