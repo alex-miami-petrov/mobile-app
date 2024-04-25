@@ -55,7 +55,7 @@ button {
 .header {
   position: absolute;
   top: 20px;
-  left: 0.4%;
+  /* left: 0.1%; */
   padding-top: 14px;
   padding-bottom: 14px;
   background-image: linear-gradient(
@@ -82,17 +82,23 @@ button {
   stroke-width: 2px;
 }
 
+.head-menu-list {
+  display: none;
+}
+.head-menu-item {
+}
+
 /* HERO */
 
 .hero {
   /* position: relative; */
   padding-top: 80px;
   padding-bottom: 127px;
-
   background-color: #06071b;
   background-image: url(../images/hero-png-2.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left 2px;
+  background-size: ;
 }
 
 .hero-container {
@@ -110,12 +116,21 @@ button {
   font-weight: 700;
   font-size: 14px;
   color: #fff;
+  margin-bottom: 18px;
 }
 .hero-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 40px;
 }
 .hero-item {
+  display: flex;
+  gap: 6px;
+  align-items: center;
 }
 .hero-icon {
+  fill: white;
 }
 .hero-text {
   font-weight: 400;
@@ -123,7 +138,18 @@ button {
   color: #fff;
 }
 .hero-btn {
-  position: absolute;
+  font-weight: 700;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  color: #fff;
+  padding: 12px 60px;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 42px;
+  margin: 0 auto;
 }
 
 /*  */
@@ -161,6 +187,18 @@ button {
 
   .menu-open-btn {
     display: none;
+  }
+
+  .head-menu-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .had-menu-link {
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
   }
 }
 

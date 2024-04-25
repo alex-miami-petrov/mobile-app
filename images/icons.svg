@@ -5,5 +5,8 @@
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M2 16h48"></path>
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4" d="M2 30h48"></path>
 </symbol>
+<symbol id="icon-hero-icon" viewBox="0 0 32 32">
+<path d="M9.6 24l8-8-8-8 1.6-3.2 11.2 11.2-11.2 11.2-1.6-3.2z"></path>
+</symbol>
 </defs>
 </svg>
