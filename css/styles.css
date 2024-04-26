@@ -322,16 +322,21 @@ button {
     padding-bottom: 47px;
   }
 
+  .feat-container {
+    padding-left: 0;
+  }
+
   .feat-title {
     font-size: 24px;
   }
   .feat-subtitle {
     font-size: 16px;
     line-height: 1.5;
+    margin-left: 32px;
   }
 
   .feat-list {
-    gap: 60px;
+    gap: 74px;
   }
 
   .feat-features {
@@ -364,6 +369,16 @@ button {
   .feat-bottom-wrap {
     display: flex;
     gap: 71px;
+    margin-left: 32px;
+    list-style-type: none;
+  }
+
+  .feat-bottom-wrap > li:nth-child(1) {
+    order: 2;
+  }
+
+  .feat-bottom-wrap > li:nth-child(2) {
+    order: 1;
   }
 }
 
