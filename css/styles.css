@@ -131,8 +131,9 @@ button {
 }
 .hero-icon {
   fill: white;
-  /* width: 18px;
-  height: 18px; */
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
 }
 .hero-text {
   font-weight: 400;
@@ -184,13 +185,12 @@ button {
 
 .feat-img {
   margin-bottom: 47px;
+  flex-shrink: 0;
 }
 .feat-list {
   display: flex;
   flex-direction: column;
   gap: 44px;
-
-  /* align-items: center; */
 }
 .feat-item {
 }
@@ -204,10 +204,10 @@ button {
 .feat-icon {
   fill: #fff;
   /* stroke-width: 8px; */
-
+  flex-shrink: 0;
   stroke: #00c5eb;
-  /* width: 18px;
-  height: 18px; */
+  width: 18px;
+  height: 18px;
 }
 
 .feat-text-wrap {
@@ -225,6 +225,10 @@ button {
 .feat-text {
   font-weight: 500;
   font-size: 12px;
+}
+
+.tablet-text {
+  display: none;
 }
 
 /*  */
@@ -326,6 +330,10 @@ button {
     line-height: 1.5;
   }
 
+  .feat-list {
+    gap: 60px;
+  }
+
   .feat-features {
     font-size: 16px;
     line-height: 1.5;
@@ -333,6 +341,29 @@ button {
 
   .feat-text {
     font-size: 14px;
+    max-width: 269px;
+  }
+
+  .mob-text {
+    display: none;
+  }
+
+  .tablet-text {
+    display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    width: 257px;
+  }
+
+  .feat-img-wrap {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 20px;
+  }
+
+  .feat-bottom-wrap {
+    display: flex;
+    gap: 71px;
   }
 }
 
