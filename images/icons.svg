@@ -8,5 +8,8 @@
 <symbol id="icon-hero-icon" viewBox="0 0 32 32">
 <path d="M9.6 24l8-8-8-8 1.6-3.2 11.2 11.2-11.2 11.2-1.6-3.2z"></path>
 </symbol>
+<symbol id="icon-feat-icon" viewBox="0 0 29 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="8.2581" d="M4.129 16c0 6.962 5.007 11.871 10.323 11.871s10.323-4.909 10.323-11.871-5.007-11.871-10.323-11.871c-5.316 0-10.323 4.909-10.323 11.871z"></path>
+</symbol>
 </defs>
 </svg>

@@ -75,15 +75,41 @@
           </ul>
           <button type="button" class="hero-btn">Download</button>
           
-          
+         
         </div>
       </section>
       <section class="features">
         <div class="container">
-          <h2 class="feat-title">key features</h2>
+          
+            <h2 class="feat-title">key features</h2>
           <h3 class="feat-subtitle">Get the best mobile experience with our Mobileapp. With a user-friendly interface, personalized recommendations, secure transactions, and real-time updates, our app offers everything you need to stay connected and productive</h3>
-          <img src="" alt="" class="feat-img" />
-          <ul class="feat-list">
+          <picture>
+                  <source
+                    srcset="
+                      ./images/feat-1440.jpg    1x,
+                      ./images/feat-1440-2x.jpg 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/feat-768.jpg    1x,
+                      ./images/feat-768-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/feat.jpg    1x,
+                      ./images/feat-2x.jpg 2x
+                    "
+                    media="(min-width: 360px)"
+                  />
+                  <img src="./images/feat.jpg" alt="idea" width="396" height="596" class="feat-img" />
+                </picture>
+          
+          <div class="feat-grid">
+            <ul class="feat-list">
             <li class="feat-item">
               <svg class="feat-icon">
                 <use></use>
@@ -128,6 +154,10 @@
               <p class="feat-text">The app offers offline capabilities, allowing users to access certain features and content even when they are not connected to the internet.</p>
             </li>
           </ul>
+          </div>
+          
+          
+          
         </div>
       </section>
       <section class="video">
