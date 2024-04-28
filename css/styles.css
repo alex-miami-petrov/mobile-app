@@ -231,6 +231,10 @@ button {
   display: none;
 }
 
+.feat-desktop-wrap {
+  display: none;
+}
+
 /*  */
 
 /*  */
@@ -332,11 +336,13 @@ button {
   .feat-subtitle {
     font-size: 16px;
     line-height: 1.5;
-    margin-left: 32px;
+    padding-left: 32px;
+    margin-bottom: 40px;
   }
 
   .feat-list {
-    gap: 74px;
+    gap: 70px;
+    margin-top: 10px;
   }
 
   .feat-features {
@@ -361,25 +367,59 @@ button {
   }
 
   .feat-img-wrap {
-    display: flex;
+    /* display: flex;
     gap: 32px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; */
+    display: grid;
+    justify-content: start;
+    grid-column: 1;
   }
 
-  .feat-bottom-wrap {
+  /* .feat-bottom-wrap {
     display: flex;
     gap: 71px;
     margin-left: 32px;
     list-style-type: none;
-  }
+  } */
 
-  .feat-bottom-wrap > li:nth-child(1) {
+  .feat-list-2 > li:nth-child(1) {
     order: 2;
   }
 
-  .feat-bottom-wrap > li:nth-child(2) {
+  .feat-list-2 > li:nth-child(2) {
     order: 1;
   }
+
+  .feat-list-1-wrap {
+    display: grid;
+    /* justify-content: end; */
+    grid-column: 3;
+    margin-bottom: 70px;
+  }
+
+  .feat-content-wrap {
+    display: grid;
+    column-gap: 50px;
+    column-gap: 1px;
+    /* grid-template-rows: 524px; */
+  }
+
+  .feat-list-2-wrap {
+    /* grid-column: 1 / 4; */
+    /* grid-row: 2 / 3; */
+  }
+
+  .feat-list-2 {
+    display: flex;
+    /* justify-content: space-between; */
+    padding-left: 32px;
+    gap: 90px;
+  }
+
+  /* .item-3-wrap {
+    display: grid;
+    justify-content: start;
+  } */
 }
 
 /* DESKTOP */
@@ -413,11 +453,69 @@ button {
     padding-bottom: 0;
   }
 
+  .feat-container {
+    width: 1240px;
+    padding-left: 107px;
+    padding-right: 100px;
+  }
+
   .feat-title {
     margin-bottom: 80px;
   }
 
   .feat-subtitle {
     margin-bottom: 56px;
+  }
+
+  .feat-list-1-wrap {
+    display: none;
+  }
+
+  .feat-list-2-wrap {
+    display: none;
+  }
+
+  .feat-desktop-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .feat-list-3-wrap {
+  }
+
+  .feat-list-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+  }
+
+  .feat-list-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+  }
+
+  .feat-list-4-wrap {
+    /* display: flex; */
+  }
+
+  .feat-img-wrap {
+    /* display: flex;
+    gap: 32px;
+    margin-bottom: 20px; */
+    display: unset;
+    grid-column: unset;
+    position: absolute;
+    left: 34%;
+    bottom: -42%;
+  }
+
+  .feat-subtitle {
+    position: relative;
+    margin-bottom: 177px;
+  }
+
+  .feat-content-wrap {
+    display: unset;
   }
 }
