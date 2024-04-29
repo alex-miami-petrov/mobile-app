@@ -280,13 +280,34 @@ button {
 .apple-btn-link {
 }
 .btn-link-icon {
+  fill: #00c5eb;
+  stroke: #00c5eb;
+  stroke-width: 2px;
 }
 .video-icon {
 }
 .android-btn-link {
 }
 
-/*  */
+/* TEAM */
+
+.team {
+}
+
+.team-title {
+}
+.team-subtitle {
+}
+.team-list {
+}
+.team-item {
+}
+.team-img {
+}
+.team-name {
+}
+.job {
+}
 
 /* MOB-MENU */
 
@@ -600,13 +621,14 @@ button {
   }
 
   .video {
-    padding-top: 160px;
+    padding-top: 200px;
     padding-bottom: 60px;
-    background-image: url(../images/video-img-1440.jpg),
-      url(../images/video-bg-1440.jpg);
-    background-position: 339px 227px, 0 0;
-    background-size: 501px 261px, 1920px 844px;
-    height: 744px;
+    background-image: url(../images/img-1440.png),
+      linear-gradient(0deg, rgba(6, 7, 27, 1) 85%, rgba(255, 255, 255, 1) 85%);
+    background-position: 656px 200px, 0 0;
+    background-size: 501px 261px, 1920px 785px;
+    /* height: 495px; */
+    background-color: transparent;
     background-repeat: no-repeat;
   }
 
@@ -617,9 +639,19 @@ button {
   .video-subtitle {
     text-align: left;
     max-width: 479px;
+    margin-bottom: 40px;
+  }
+
+  .video-list {
+    /* display: flex;
+  gap: 20px; */
+    justify-content: flex-start;
   }
 
   .video-img {
     display: none;
+  }
+
+  .team {
   }
 }
