@@ -340,26 +340,49 @@
         <div class="container">
           <h2 class="video-title">watch the video</h2>
           <h3 class="video-subtitle">Watch the video below to see our mobile app in action. With a user-friendly interface, personalized recommendations, secure transactions, and real-time updates, our app is available for download on both Apple and Android devices and is designed to make your life easier.</h3>
-          <ul class="video-list">
+          <png class="video-list">
             <li class="video-item"><a href="" class="apple-btn-link">
             <svg class="btn-link-icon" width="60" height="60">
-              <use href=""></use>
+              <use href="./images/icons.svg#icon-apple" class="video-icon"></use>
             </svg>
             
           </a></li>
             <li class="video-item">
               <a href="" class="android-btn-link">
             <svg class="btn-link-icon" width="60" height="60">
-              <use href=""></use>
+              <use href="./images/icons.svg#icon-android" class="video-icon"></use>
             </svg>
             
           </a>
             </li>
-          </ul>
-          
+          </png
+          <picture>
+                  <source
+                    srcset="
+                      ./images/video-img    1x,
+                      ./images/video-img-1440-2x.png 2x
+                    "
+                    media="(min-width: 1280px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/video-img-768.png    1x,
+                      ./images/video-img-768-2x.png 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/video-img.png    1x,
+                      ./images/video-img-2x.png 2x
+                    "
+                    media="(min-width: 360px)"
+                  />
+                  <img src="./images/video-img.png" alt="phone" width="501" height="282" class="video-img" />
+                </picture>
           
 
-          <img src="" alt="" class="video-img" />
+          
         </div>
       </section>
       <section class="team">

@@ -192,7 +192,18 @@ button {
   flex-direction: column;
   gap: 44px;
 }
+
+.feat-list:last-child {
+  margin-bottom: 44px;
+}
+
 .feat-item {
+}
+
+.feat-list-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
 }
 
 .feat-feat-wrap {
@@ -238,18 +249,39 @@ button {
 /* VIDEO */
 
 .video {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #06071b;
 }
 .video-title {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 24px;
 }
 .video-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  max-width: 280px;
+  margin-bottom: 20px;
 }
 .video-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 .video-item {
 }
 .apple-btn-link {
 }
 .btn-link-icon {
+}
+.video-icon {
 }
 .android-btn-link {
 }
@@ -421,6 +453,10 @@ button {
     /* grid-template-rows: 524px; */
   }
 
+  .feat-list:last-child {
+    margin-bottom: 0;
+  }
+
   .feat-list-2-wrap {
     /* grid-column: 1 / 4; */
     /* grid-row: 2 / 3; */
@@ -428,6 +464,7 @@ button {
 
   .feat-list-2 {
     display: flex;
+    flex-direction: row;
     /* justify-content: space-between; */
     padding-left: 32px;
     gap: 90px;
@@ -437,6 +474,32 @@ button {
     display: grid;
     justify-content: start;
   } */
+
+  .video {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+
+  .video-title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .video-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    max-width: 704px;
+  }
+
+  .video-list {
+    margin-bottom: 40px;
+  }
+
+  .video-img {
+    margin: 0 auto;
+  }
 }
 
 /* DESKTOP */
@@ -534,5 +597,29 @@ button {
 
   .feat-content-wrap {
     display: unset;
+  }
+
+  .video {
+    padding-top: 160px;
+    padding-bottom: 60px;
+    background-image: url(../images/video-img-1440.jpg),
+      url(../images/video-bg-1440.jpg);
+    background-position: 339px 227px, 0 0;
+    background-size: 501px 261px, 1920px 844px;
+    height: 744px;
+    background-repeat: no-repeat;
+  }
+
+  .video-title {
+    text-align: left;
+  }
+
+  .video-subtitle {
+    text-align: left;
+    max-width: 479px;
+  }
+
+  .video-img {
+    display: none;
   }
 }
