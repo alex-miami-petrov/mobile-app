@@ -301,21 +301,72 @@ button {
 /* TEAM */
 
 .team {
+  padding-top: 43px;
+  padding-bottom: 40px;
 }
 
 .team-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 24px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .team-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #000;
+  margin-bottom: 28px;
 }
 .team-list {
+  /* border-radius: 15px;
+  width: 280px;
+  height: 413px; */
+}
+
+.team-item-wrap {
+  border: none;
+  border-radius: 15px;
+  width: 280px;
+  height: 413px;
+  background-image: linear-gradient(
+    115deg,
+    rgba(0, 197, 235, 0.5) 0%,
+    rgba(181, 68, 254, 0.5) 100%
+  );
 }
 .team-item {
+  margin-bottom: 24px;
 }
 .team-img {
+  padding-bottom: 24px;
+  padding: 16px;
+
+  border-radius: 10px;
+  background-clip: padding-box;
 }
+
+.team-text-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
 .team-name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
 }
 .job {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71429;
+  text-align: center;
+  color: #fff;
 }
 
 /* MOB-MENU */
@@ -530,6 +581,50 @@ button {
   .video-img {
     margin: 0 auto;
   }
+
+  .team {
+    padding-top: 10px;
+  }
+
+  .team-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .team-subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+    margin-bottom: 40px;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 32px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-item-wrap {
+    height: 409px;
+    width: 336px;
+  }
+
+  .team-item {
+    margin-bottom: 0;
+  }
+
+  .team-img {
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px;
+    margin: 0 auto;
+    /* margin: 0 auto; */
+  }
 }
 
 /* DESKTOP */
@@ -661,6 +756,27 @@ button {
     display: none;
   }
 
-  .team {
+  .team-title {
+    margin-bottom: 80px;
+  }
+
+  .team-subtitle {
+    margin-bottom: 56px;
+  }
+
+  .team-list {
+    flex-wrap: nowrap;
+    gap: 0 32px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-item-wrap {
+    width: 288px;
+    height: 364px;
+  }
+
+  .team-img {
+    width: 264px;
   }
 }
