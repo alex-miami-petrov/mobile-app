@@ -423,6 +423,8 @@ button {
 }
 
 .test-icon {
+  display: block;
+  margin: 0 auto;
 }
 
 /* MOB-MENU */
