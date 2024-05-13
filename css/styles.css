@@ -389,14 +389,39 @@ button {
 }
 .test-item {
 }
+
+.test-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .test-img {
+  margin-bottom: 20px;
 }
 .test-name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 12px;
 }
 .test-job {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: #000;
+  margin-bottom: 24px;
 }
 .test-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #000;
+  margin-bottom: 40px;
 }
+
 .test-icon {
 }
 
@@ -665,6 +690,16 @@ button {
   .test-title {
     margin-bottom: 40px;
   }
+
+  .test-job {
+    margin-bottom: 40px;
+  }
+
+  .test-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 64px;
+  }
 }
 
 /* DESKTOP */
@@ -822,5 +857,9 @@ button {
 
   .test-title {
     margin-bottom: 80px;
+  }
+
+  .test-text {
+    max-width: 886px;
   }
 }
