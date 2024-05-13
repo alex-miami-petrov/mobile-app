@@ -369,6 +369,35 @@ button {
   color: #fff;
 }
 
+/* TESTIMONIALS */
+
+.testimonials {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.test-title {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+}
+.test-list {
+}
+.test-item {
+}
+.test-img {
+}
+.test-name {
+}
+.test-job {
+}
+.test-text {
+}
+.test-icon {
+}
+
 /* MOB-MENU */
 
 .mob-menu {
@@ -583,7 +612,7 @@ button {
   }
 
   .team {
-    padding-top: 10px;
+    padding-top: 80px;
   }
 
   .team-title {
@@ -624,6 +653,11 @@ button {
     padding-top: 20px;
     margin: 0 auto;
     /* margin: 0 auto; */
+  }
+
+  .testimonials {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 
