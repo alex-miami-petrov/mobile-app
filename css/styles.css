@@ -382,7 +382,9 @@ button {
   text-align: center;
   color: #000;
   text-transform: uppercase;
+  margin-bottom: 40px;
 }
+
 .test-list {
 }
 .test-item {
@@ -659,6 +661,10 @@ button {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
+  .test-title {
+    margin-bottom: 40px;
+  }
 }
 
 /* DESKTOP */
@@ -812,5 +818,9 @@ button {
 
   .team-img {
     width: 264px;
+  }
+
+  .test-title {
+    margin-bottom: 80px;
   }
 }
