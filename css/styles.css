@@ -427,9 +427,9 @@ button {
   margin: 0 auto;
 }
 
-/* CONTACT-US */
+/* FOOTER */
 
-.contact {
+.footer {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #06071b;
@@ -444,6 +444,9 @@ button {
   text-transform: uppercase;
 }
 .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contact-form-wrap {
 }
@@ -455,7 +458,18 @@ button {
   border-radius: 5px;
   width: 280px;
   height: 40px;
+  margin-bottom: 20px;
 }
+
+.contact-input:placeholder-shown {
+  padding-left: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #939eac;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .cont-textarea-field {
 }
 .cont-textarea-label {
@@ -464,7 +478,17 @@ button {
   border-radius: 5px;
   width: 280px;
   height: 220px;
+  margin-bottom: 20px;
 }
+
+.cont-textarea:placeholder-shown {
+  padding-left: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #939eac;
+  padding-top: 12px;
+}
+
 .contact-btn {
   font-weight: 700;
   font-size: 16px;
@@ -475,6 +499,58 @@ button {
   width: 181px;
   height: 42px;
   background-image: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  margin-bottom: 40px;
+}
+
+.ftr-title {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.ftr-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.ftr-soc-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.ftr-icon {
+  border-radius: 100%;
+  background-image: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #fff;
+  width: 100%;
+  padding-bottom: 42px;
+}
+
+.ftr-adress-item {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.copyright {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
 }
 
 /* MOB-MENU */
@@ -753,7 +829,7 @@ button {
     margin-bottom: 64px;
   }
 
-  .contact {
+  .footer {
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -765,6 +841,22 @@ button {
   .cont-textarea {
     width: 704px;
     height: 162px;
+  }
+
+  .contact-form-wrap {
+    display: flex;
+    gap: 32px;
+  }
+
+  .ftr-title {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .ftr-subtitle {
+    margin-bottom: 49px;
   }
 }
 
@@ -929,6 +1021,9 @@ button {
     max-width: 886px;
   }
 
+  .footer {
+    padding-bottom: 20px;
+  }
   .contact-title {
     margin-bottom: 80px;
   }
@@ -940,5 +1035,48 @@ button {
   .cont-textarea {
     width: 608px;
     height: 162px;
+  }
+
+  .contact-input {
+    margin-bottom: 79px;
+  }
+
+  .ftr-title {
+    text-align: left;
+  }
+
+  .ftr-subtitle {
+    margin-bottom: 20px;
+    max-width: 500px;
+  }
+
+  .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+  }
+
+  .ftr-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .contacts-list {
+    border: none;
+  }
+
+  .contact-input {
+    margin-bottom: 20px;
+  }
+
+  .copyright {
+    padding-top: 21px;
+  }
+
+  .form-wrap {
+    margin-bottom: 79px;
   }
 }
