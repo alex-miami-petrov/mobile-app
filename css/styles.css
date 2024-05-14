@@ -50,6 +50,12 @@ button {
   cursor: pointer;
 }
 
+.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .container {
     width: 100%;
@@ -563,11 +569,61 @@ button {
   top: 0;
   flex-direction: column;
   background-color: #fff;
-  padding: 24px 24px 40px 16px;
+
   overflow: auto;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  background-color: #07081c;
+  padding-top: 34px;
+  padding-bottom: 124px;
+}
+
+.mob-container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.mob-head-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+.menu-close-btn {
+  background-color: transparent;
+  border: none;
+}
+.menu-close-icon {
+  background-color: transparent;
+  border: none;
+}
+.m-m-nav {
+}
+.mob-menu-list {
+}
+.mob-menu-item {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.mob-menu-item:first-child {
+  background-image: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mob-menu-link {
 }
 
 /* TABLET */
@@ -578,6 +634,10 @@ button {
     padding-left: 32px;
     padding-right: 32px;
     margin: 0 auto;
+  }
+
+  .mob-menu {
+    display: none;
   }
 
   .menu-open-btn {
@@ -882,7 +942,7 @@ button {
     background-image: url(../images/dekor-1440.png), url(../images/hero-768.png),
       linear-gradient(180deg, rgba(6, 7, 27, 1) 80%, rgba(255, 255, 255, 1) 80%);
     background-position: 339px 227px, 720px 110px, 0 0;
-    background-size: 541px 418px, 524px 654px, 1920px 844px;
+    background-size: 541px 418px, 524px 654px, 2450px 844px;
     height: 744px;
   }
 
