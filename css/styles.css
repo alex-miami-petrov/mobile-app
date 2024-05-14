@@ -427,6 +427,38 @@ button {
   margin: 0 auto;
 }
 
+/* CONTACT-US */
+
+.contact {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.contact-form {
+}
+.contact-form-wrap {
+}
+.contact-field {
+}
+.contact-label {
+}
+.contact-input {
+}
+.cont-textarea-field {
+}
+.cont-textarea-label {
+}
+.cont-textarea {
+}
+.contact-btn {
+}
+
 /* MOB-MENU */
 
 .mob-menu {
@@ -702,6 +734,11 @@ button {
     line-height: 1.5;
     margin-bottom: 64px;
   }
+
+  .contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }
 
 /* DESKTOP */
@@ -863,5 +900,9 @@ button {
 
   .test-text {
     max-width: 886px;
+  }
+
+  .contact-title {
+    margin-bottom: 80px;
   }
 }
