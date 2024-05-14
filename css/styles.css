@@ -432,6 +432,7 @@ button {
 .contact {
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: #06071b;
 }
 
 .contact-title {
@@ -439,6 +440,8 @@ button {
   font-size: 20px;
   color: #fff;
   margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .contact-form {
 }
@@ -449,14 +452,29 @@ button {
 .contact-label {
 }
 .contact-input {
+  border-radius: 5px;
+  width: 280px;
+  height: 40px;
 }
 .cont-textarea-field {
 }
 .cont-textarea-label {
 }
 .cont-textarea {
+  border-radius: 5px;
+  width: 280px;
+  height: 220px;
 }
 .contact-btn {
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px 59px;
+  border-radius: 5px;
+  width: 181px;
+  height: 42px;
+  background-image: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
 }
 
 /* MOB-MENU */
@@ -739,6 +757,15 @@ button {
     padding-top: 80px;
     padding-bottom: 80px;
   }
+
+  .contact-input {
+    width: 336px;
+  }
+
+  .cont-textarea {
+    width: 704px;
+    height: 162px;
+  }
 }
 
 /* DESKTOP */
@@ -904,5 +931,14 @@ button {
 
   .contact-title {
     margin-bottom: 80px;
+  }
+
+  .contact-input {
+    width: 288px;
+  }
+
+  .cont-textarea {
+    width: 608px;
+    height: 162px;
   }
 }
